@@ -53,3 +53,41 @@ Students will be able to:
 6. Code the "Mark as Unread" button to hide the inbox message and turn the message background white again. The button itself should also disappear.
 
 7. Let's redo the "Today is September 1st" subtitle. Create your own class with different attributes in it. When the subtitle is clicked, change something somewhere else on the page by adding your newly created class. Here's the tricky part! If the class is already added, remove it, if it's not already added, add it. You may need to check out this [link](https://www.w3schools.com/jsref/met_domtokenlist_contains.asp) on `contains()`.
+
+## Part 2 
+
+### Mild Activities
+
+1. Change the code for the "Today is September 1st" subtitle text to toggle between blue and black text like done in the example with the title.
+
+2. Find the ID for the Checkbox on the left of the message and make sure it...
+
+    - Adds the `is-selected` class to the inbox
+
+    - Un-hides the div with ID `action-buttons`
+
+    When the checkbox is clicked again, the opposite should happen creating a toggle effect.
+
+### Medium Activities
+
+3. Code the "Delete Message(s)" button to:
+
+    - Hide the entire inbox
+
+    - use `innerHTML` to change the text of the button from "Delete Message(s)" to "Undo Deletion"
+
+    When "Undo Deletion" is clicked, the inbox should reappear and the text should change back to "Delete Message(s)".
+
+4. Code the "Mark as Read" to do the following:
+
+    - Un-hide the "Mark as Unread" button
+
+    - Unselect the message (get rid of the blue background)
+
+    - Turn the inbox background grey
+
+    - Uncheck the checkbox (Check out [this resource](https://www.w3schools.com/jsref/prop_checkbox_checked.asp) for help on this)
+
+### Spicy Activities
+
+5. There's one more button that needs to be programmed; the "Dark Mode" button at the top left of the page! For this, you'll need to create your own CSS classes and general design for what dark mode will look like on this page. If you're stuck, look for images of Google's dark mode on Gmail for some inspiration.
